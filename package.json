@@ -1,0 +1,16 @@
+{
+  "main": "lib/index",
+  "dependencies": {
+    "@types/node": "^16.7.1",
+    "@vk-io/hear": "^1.1.0",
+    "@vk-io/session": "^2.1.0",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.0",
+    "typeorm": "^0.2.37",
+    "vk-io": "^4.3.2"
+  },
+  "scripts": {
+    "build": "tsc -w",
+    "start": "nodemon lib/index "
+  }
+}
